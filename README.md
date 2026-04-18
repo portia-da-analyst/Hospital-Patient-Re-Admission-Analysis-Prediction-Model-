@@ -139,7 +139,7 @@ This section presents all visualisations generated during the Exploratory Data A
 
 The correlation heatmap below shows the pairwise linear relationships between all numeric features in the dataset. Values closer to 1.0 (deep blue) indicate strong positive correlation; values near 0 indicate little linear relationship.
 
-![Correlation Heatmap](correlation_heatmap(1).png)
+![Correlation Heatmap](correlation_heatmap.png)
 _Figure 1: Correlation Heatmap of Numeric Features_
 
 Key insights: Age and comorbidities_count show a moderate positive correlation, confirming that older patients tend to present with more co-existing conditions. Length of stay and medications_count are positively associated, suggesting that more complex patients require both longer stays and more medications. The readmission_risk_score correlates with multiple clinical variables, validating its composite nature. No features exhibit near-perfect correlation (multicollinearity), confirming all variables carry independent predictive value.
