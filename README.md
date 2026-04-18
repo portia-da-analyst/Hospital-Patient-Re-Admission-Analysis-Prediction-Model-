@@ -184,7 +184,7 @@ Key insights: The Random Forest model demonstrated solid overall accuracy. The m
 
 The horizontal bar chart below presents the permutation importance of each feature in the Random Forest model. Permutation importance measures how much the model's accuracy drops when the values of a single feature are randomly shuffled - a larger drop indicates a more important feature.
 
-![Feature Importance - Permutation Analysis](.png)
+![Feature Importance - Permutation Analysis](xgboost_classification_report.png)
 _Figure 10: Permutation Feature Importance - Random Forest_
 
 Key insights: The readmission_risk_score, comorbidities_count, and length_of_stay emerge as the top three features driving predictions - all clinically meaningful and actionable variables. The medications_count and age follow closely. Encoded categorical variables (season, gender, insurance type) contribute smaller but non-zero importance, confirming that demographic and administrative context adds predictive value beyond purely clinical variables. Features with near-zero importance could be considered for removal in future model iterations to simplify the model without sacrificing accuracy.
